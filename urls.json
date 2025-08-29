@@ -1,0 +1,20 @@
+{
+  "items": [
+    {"id": 1,"label": "Nota Técnica - NF-e","url": "https://www.nfe.fazenda.gov.br/portal/listaConteudo.aspx?tipoConteudo=04BIflQt1aY="},
+    {"id": 2,"label": "Esquemas XML - NF-e","url": "https://www.nfe.fazenda.gov.br/portal/listaConteudo.aspx?tipoConteudo=BMPFMBoln3w="},
+    {"id": 3,"label": "Informes Técnicos - NF-e","url": "https://www.nfe.fazenda.gov.br/portal/listaConteudo.aspx?tipoConteudo=hXzemuyNHW4="},
+    {"id": 4,"label": "Manuais - NF-e","url": "https://www.nfe.fazenda.gov.br/portal/listaConteudo.aspx?tipoConteudo=ndIjl+iEFdE="},
+  {
+      "id": 5,
+      "label": "Informes Técnicos - MDF-e",
+      "url": "https://dfe-portal.svrs.rs.gov.br/Mdfe/Avisos",
+      "selector": "main"
+    },
+    {
+      "id": 6,
+      "label": "Manuais, Schemas, Notas Técnicas, Tabelas, e Informes Técnicos - MDF-e",
+      "url": "https://dfe-portal.svrs.rs.gov.br/Mdfe/Documentos",
+      "selector": "main"
+    }
+  ]
+}

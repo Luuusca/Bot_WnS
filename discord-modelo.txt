@@ -1,0 +1,7 @@
+DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/1234567891234567/xyzxyzxyxzyxzyxyxzyxzyzx
+USERNAME=Monitor NF-e
+AVATAR_URL=
+# MENTION_ROLE_ID=123456789012345678  (opcional)
+# Altere os valores acima de acordo com a webhook do seu discord, 
+# O username é o nome que o bot vai usar.
+# O nome do arquivo deve ser discord.txt"
