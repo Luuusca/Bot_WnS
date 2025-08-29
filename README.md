@@ -154,17 +154,19 @@ Bot_WnS\dist\Bot_WnS.exe
 ### **📌 Mensagens no Discord**
 
 Exemplo de mensagem enviada pelo bot:
+```text
 Houve alteração em **Nota Técnica**:
 https://www.nfe.fazenda.gov.br/portal/listaConteudo.aspx?tipoConteudo=04BIflQt1aY=
-
+```
 
 🛠 Tecnologias Usadas
-
+```text
 Python 3.10+
 Selenium → Web scraping automatizado.
 BeautifulSoup4 → Parsing e limpeza de HTML.
 Requests → Envio de mensagens ao Discord.
 PyInstaller → Geração de executável.
+```
 ---
 
 🧾 Licença
