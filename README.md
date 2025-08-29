@@ -168,7 +168,7 @@ Requests → Envio de mensagens ao Discord.
 PyInstaller → Geração de executável.
 ```
 ---
-⭐ Dica
+### **⭐ Dica**
 Para adicionar novas páginas, basta incluir novos itens no urls.json.
 O bot passa a monitorá-las automaticamente, sem alterar o código.
 
