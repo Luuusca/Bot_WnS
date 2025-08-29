@@ -1,6 +1,7 @@
 # 🤖 Bot_WnS (What's New SEFAZ?)
-Bot para monitorar alterações em conteúdos de sites da **SEFAZ** (e outros) e enviar alertas no **Discord** via **Webhook**.  
-O nome **WnS** vem de *What's New SEFAZ*, pois o objetivo é detectar e notificar mudanças importantes, como **Notas Técnicas**, **Esquemas XML** e documentos fiscais em geral.
+Bot para monitorar alterações em conteúdos de sites da SEFAZ (e outros) e enviar alertas no Discord via Webhook.  
+O nome WnS vem de *What's New SEFAZ*, pois o objetivo é detectar e notificar mudanças importantes, como **Notas Técnicas**, **Esquemas XML** e documentos fiscais em geral.
+
 ---
 
 ## 🚀 Funcionalidades
