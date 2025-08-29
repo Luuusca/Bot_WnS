@@ -28,6 +28,7 @@ Bot_WnS/
 ├── .venv/              # Ambiente virtual do Python
 ├── .gitignore          # Arquivos ignorados no GitHub
 └── README.md           # Este arquivo
+```text
 
 ---
 
