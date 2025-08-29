@@ -17,6 +17,7 @@ O nome **WnS** vem de *What's New SEFAZ*, pois o objetivo é detectar e notifica
 
 ## 📂 Estrutura do Projeto
 
+```text
 Bot_WnS/
 ├── monitor.py          # Script principal
 ├── urls.json           # Lista de URLs e labels monitorados
