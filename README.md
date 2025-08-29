@@ -118,26 +118,27 @@ Onde:
 ### **▶️ Como Usar**
 
 Rodar no VS Code / Terminal:
-
+```text
 python monitor.py --log-level INFO
-
+```
 Opções disponíveis
 - --no-headless → Abre o Chrome visível.
 - --log-level DEBUG → Exibe detalhes extras.
 - --quiet-ok → Oculta mensagens de páginas sem alterações.
 
 Exemplo:
-
+```text
 python monitor.py --no-headless --log-level DEBUG
+```
 ---
 
 ### **🧰 Compilando para .EXE
 
 1. Criar o executável
 Rode no terminal do VS Code:
-
-- .\build.bat
-
+```text
+.\build.bat
+```
 O .bat faz automaticamente:
 
 - Ativa o venv.
@@ -145,8 +146,9 @@ O .bat faz automaticamente:
 - Compila o .exe na pasta dist.
 
 O executável final estará em:
-
+```text
 Bot_WnS\dist\Bot_WnS.exe
+```
 ---
 
 ### **📌 Mensagens no Discord**
