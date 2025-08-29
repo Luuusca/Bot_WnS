@@ -62,18 +62,27 @@ Se não existir requirements.txt, instale manualmente:
 pip install selenium beautifulsoup4 requests pyinstaller
 
 ### **🔑 Configuração do Discord (discord.txt)**
-
+```text
 DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/SEU_WEBHOOK
 USERNAME=Bot WnS
 AVATAR_URL=
 MENTION_ROLE_ID=
-
+```
 Onde:
 
 - DISCORD_WEBHOOK_URL → URL do webhook do Discord.
 - USERNAME → Nome exibido no Discord.
 - AVATAR_URL (opcional) → Link para avatar do bot, se houver.
 - MENTION_ROLE_ID → Menciona um cargo no discord, opcional, funciona sem também.
+
+Exemplo:
+
+```text
+DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/1234567891234567/xyzxyzxyxzyxzyxyxzyxzyzx
+USERNAME=Monitor NF-e
+AVATAR_URL=
+# MENTION_ROLE_ID=123456789012345678  (opcional)
+```
 
 ## **🌐 Configuração das URLs (urls.json)**
 
