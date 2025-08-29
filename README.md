@@ -78,7 +78,7 @@ Onde:
 ## **🌐 Configuração das URLs (urls.json)**
 
 Defina todas as páginas a monitorar no urls.json:
-
+```text
 {
   "items": [
     {
@@ -105,7 +105,7 @@ Defina todas as páginas a monitorar no urls.json:
     }
   ]
 }
-
+```
 
 Onde:
 
