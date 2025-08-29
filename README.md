@@ -15,19 +15,19 @@ O nome **WnS** vem de *What's New SEFAZ*, pois o objetivo é detectar e notifica
 - ✅ Salva **snapshots independentes por ID** para rastrear mudanças.
 - ✅ Permite compilar para **.exe** com um simples `build.bat`.
 
-
 ## 📂 Estrutura do Projeto
 
 Bot_WnS/
-├── monitor.py # Script principal
-├── urls.json # Lista de URLs e labels monitorados
-├── discord.txt # Credenciais do Discord Webhook
-├── snapshot.json # Hashes dos conteúdos monitorados
-├── build.bat # Compila o projeto em um .exe automaticamente
-├── dist/ # (Gerado após compilação) Contém o executável
-├── .venv/ # Ambiente virtual do Python
-├── .gitignore # Arquivos ignorados no GitHub
-└── README.md # Este arquivo
+├── monitor.py          # Script principal
+├── urls.json           # Lista de URLs e labels monitorados
+├── discord.txt         # Credenciais do Discord Webhook
+├── snapshot.json       # Hashes dos conteúdos monitorados
+├── build.bat           # Compila o projeto em um .exe automaticamente
+├── dist/               # (Gerado após compilação) Contém o executável
+├── .venv/              # Ambiente virtual do Python
+├── .gitignore          # Arquivos ignorados no GitHub
+└── README.md           # Este arquivo
+
 ---
 
 ## ⚙️ Configuração do Ambiente
