@@ -1,29 +1,53 @@
 @echo off
-title Build Bot_WnS
+setlocal ENABLEEXTENSIONS ENABLEDELAYEDEXPANSION
+title Build Bot_WnS (Console Mode)
+
 echo ============================================
-echo   GERANDO EXECUTAVEL DO BOT_WNS (.EXE)
+echo    GERANDO EXECUTAVEL DO BOT_WnS (.EXE)
+echo    Modo: Console (logs visíveis)
 echo ============================================
 echo.
 
-REM Ativa o ambiente virtual
+:: Ativa o ambiente virtual (ajuste o caminho se precisar)
 call .\.venv\Scripts\activate.bat
 
-REM Garante que o PyInstaller está instalado/atualizado
+:: Garante que o PyInstaller está atualizado
 echo Instalando/atualizando o PyInstaller...
 python -m pip install --upgrade pip
 python -m pip install --upgrade pyinstaller
 
-REM Compila o projeto em um único .exe (sem console)
-echo.
-echo Compilando o executavel...
-pyinstaller --onefile --noconsole --name Bot_WnS monitor.py
+:: Limpeza de compilações anteriores
+if exist build rd /s /q build
+if exist dist rd /s /q dist
+if exist __pycache__ rd /s /q __pycache__
+del /q /f *.spec 2>nul
 
-REM Exibe o caminho do executável
+:: Define nomes e arquivos
+set NAME=Bot_WnS
+set ENTRY=monitor.py
+
+:: Compilação com console
+echo.
+echo Compilando o executável com console...
+pyinstaller --onefile --console --name %NAME% %ENTRY%
+set ERR=%ERRORLEVEL%
+
+:: Verificação de erro na compilação
+if not "%ERR%"=="0" (
+    echo.
+    echo ERRO na compilacao! Codigo: %ERR%
+    echo Abortando...
+    pause
+    exit /b %ERR%
+)
+
+:: Exibe o resultado final
 echo.
 echo ============================================
-echo   BUILD FINALIZADO COM SUCESSO!
-echo   O ARQUIVO FOI GERADO EM:
-echo   %cd%\dist\Bot_WnS.exe
+echo   BUILD FINALIZADO COM SUCESSO
+echo   ARQUIVO GERADO:
+echo   %cd%\dist\%NAME%.exe
 echo ============================================
 
 pause
+endlocal

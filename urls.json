@@ -6,15 +6,9 @@
     {"id": 4,"label": "Manuais - NF-e","url": "https://www.nfe.fazenda.gov.br/portal/listaConteudo.aspx?tipoConteudo=ndIjl+iEFdE="},
   {
       "id": 5,
-      "label": "Informes Técnicos - MDF-e",
+      "label": "MDF-e — Avisos (SVRS)",
       "url": "https://dfe-portal.svrs.rs.gov.br/Mdfe/Avisos",
-      "selector": "main"
-    },
-    {
-      "id": 6,
-      "label": "Manuais, Schemas, Notas Técnicas, Tabelas, e Informes Técnicos - MDF-e",
-      "url": "https://dfe-portal.svrs.rs.gov.br/Mdfe/Documentos",
-      "selector": "main"
+      "selector": "section#pagedlistItens .matriz-ui-pagedlist-body"
     }
   ]
 }
