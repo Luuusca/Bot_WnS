@@ -141,7 +141,7 @@ python monitor.py --no-headless --log-level DEBUG
 ```
 ---
 
-### **🧰 Compilando para .EXE
+### **🧰 Compilando para .EXE**
 
 1. Criar o executável
 Rode no terminal do VS Code:
