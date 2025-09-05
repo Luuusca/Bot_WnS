@@ -158,6 +158,8 @@ O executável final estará em:
 ```text
 Bot_WnS\dist\Bot_WnS.exe
 ```
+
+*Não se esqueça de colocar os arquivos urls.json e discord.txt junto do .exe que gerar!*
 ---
 
 ### **📌 Mensagens no Discord**
